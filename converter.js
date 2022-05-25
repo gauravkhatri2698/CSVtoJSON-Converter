@@ -39,7 +39,7 @@ csv({
     },
     async () => {
       console.log("completed");
-      console.log(arr);
+      console.log(arr.length);
       if (arr.length > 0) await writeData(`C:\\Users\\User\\OneDrive\\Documents\\Visual Studio 2017\\StartPages\\CSVtoJSON_Converter\\${filefolder}`, arr);
     }
   );
